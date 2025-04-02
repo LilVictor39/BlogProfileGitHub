@@ -39,4 +39,5 @@ export const IssuesAside = styled.div`
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 2.5rem;
 `;
