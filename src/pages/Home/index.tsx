@@ -25,7 +25,7 @@ export function Home() {
   const fetchPosts = async () => {
     try {
       const response = await api.get<SearchPostsProps>(
-        "search/issues?q=repo:lucaspedronet/TudoLista"
+        "https://api.github.com/search/issues?q=repo:lucaspedronet/BlogProfileGitHub"
       );
 
       setPosts(response.data.items);
